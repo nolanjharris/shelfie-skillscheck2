@@ -23,10 +23,138 @@
   color: #61dafb;
 }
 
+.form img {
+  max-width: 30vw;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  padding: 0 7vw;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #AB2A19;
+  color: #fff;
+}
+
+button {
+  background-color: #ED6B5A;
+  border: none;
+  height: 40px;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.headerButtons {
+  margin-left: 80px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dashboard img {
+  width: 320px;
+  height: 200px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.product {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #D34735;
+  margin: 10px 0;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.productInfo button {
+  background-color: #3ad886;
+}
+
+.namePrice {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.namePrice h2 {
+  margin: 0;
+}
+
+.productButtons {
+  margin-left: 10px;
+  width: 275px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  width: 450px;
+  background-color: #3ad886;
+  border-radius: 10px;
+  margin: 60px auto;
+}
+
+.form h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.form img {
+  margin: 0 auto;
+  border: 1px solid #ab2a19;
+  width: 350px;
+  height: 210px;
+  /* background-position: 50%; */
+  padding: 0;
+  background-size: center;
+}
+
+.form input {
+  height: 20px;
+  width: 100%;
+}
+
+.form .formButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: .8em;
+  width: 100%
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
